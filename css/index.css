@@ -297,6 +297,15 @@ input, textarea {
     font-size: 15px;
 }
 
+.home-button {
+    text-align: center;
+    color: steelblue;
+    font-size: 24px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: -10px;
+}
+
 /* ########## Media Queries to make styling responsive and mobile-friendly ########## */
 
 @media only screen and (max-width: 800px) {
