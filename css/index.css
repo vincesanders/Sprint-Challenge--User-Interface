@@ -253,6 +253,50 @@ footer nav a {
     margin-bottom: 40px;
 }
 
+/* ########## contact.html page specific styling is below here ########## */
+
+.contact-body {
+    background: #ffa375;
+    display: flex;
+    align-items: center;
+}
+
+.contact-container {
+    background: white;
+    width: 400px;
+    margin: 0 auto;
+    border-radius: 20px;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.2);
+}
+
+#contact {
+    padding: 20px;
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+#contact h1 {
+    color: steelblue;
+    font-size: 36px;
+}
+
+input, textarea {
+    width: 100%;
+    margin: 10px auto;
+}
+
+.submit-button {
+    margin: 10px auto;
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    background: steelblue;
+    color: white;
+    padding: 10px;
+    font-size: 15px;
+}
+
 /* ########## Media Queries to make styling responsive and mobile-friendly ########## */
 
 @media only screen and (max-width: 800px) {
