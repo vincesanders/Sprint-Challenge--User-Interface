@@ -306,6 +306,14 @@ input, textarea {
     margin-bottom: -10px;
 }
 
+.submit-button:hover {
+    background: #24435c;
+}
+
+.home-button:hover {
+    color: #24435c;
+}
+
 /* ########## Media Queries to make styling responsive and mobile-friendly ########## */
 
 @media only screen and (max-width: 800px) {
