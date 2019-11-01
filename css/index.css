@@ -201,13 +201,14 @@ footer nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 2%;
+    padding: 0 2%;
     font-size: 14px;
 }
 
 footer nav a {
     color: white;
     text-decoration: none;
+    padding-bottom: 20px;
 }
 
 .about-page .top-content .text-container, .about-page .about-bottom-content .text-container {
@@ -244,8 +245,8 @@ footer nav a {
     font-size: 15px;
 }
 
-about-bottom-content {
+.about-bottom-content {
     display: flex;
     justify-content: space-evenly;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
