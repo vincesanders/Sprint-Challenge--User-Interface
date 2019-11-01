@@ -226,3 +226,26 @@ footer nav a {
     margin-top: 10px;
     margin-bottom: 50px;
 }
+
+.card img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.card .button {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background: white;
+    width: 130px;
+    padding: 10px 20px;
+    border: 2px solid black;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+about-bottom-content {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
