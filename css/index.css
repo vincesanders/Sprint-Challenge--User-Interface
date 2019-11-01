@@ -211,6 +211,8 @@ footer nav a {
     padding-bottom: 20px;
 }
 
+/* ########## about.html page specific styling is below here ########## */
+
 .about-page .top-content .text-container, .about-page .about-bottom-content .text-container {
     width: 96%;
 }
