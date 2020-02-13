@@ -71,12 +71,38 @@ p {
     margin: 0 auto;
 }
 
+header {
+    display: flex;
+    margin: 18px auto;
+}
+
+.logo {
+    width: 80%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+}
+
+nav a {
+    margin-top: 25px;
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+}
+
+.top-content img {
+    margin: 20px auto;
 }
 
 .top-content .text-container {
@@ -104,12 +130,51 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.boxes div:nth-child(1) {
+    background: teal;
+}
+
+.boxes div:nth-child(2) {
+    background: gold;
+}
+
+.boxes div:nth-child(3) {
+    background: cadetblue;
+}
+
+.boxes div:nth-child(4) {
+    background: coral;
+}
+
+.boxes div:nth-child(5) {
+    background: crimson;
+}
+
+.boxes div:nth-child(6) {
+    background: forestgreen;
+}
+
+.boxes div:nth-child(7) {
+    background: darkorchid;
+}
+
+.boxes div:nth-child(8) {
+    background: hotpink;
+}
+
+.boxes div:nth-child(9) {
+    background: indigo;
+}
+
+.boxes div:nth-child(10) {
+    background: dodgerblue;
 }
 
 .bottom-content {
@@ -136,11 +201,152 @@ footer nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 2%;
+    padding: 0 2%;
     font-size: 14px;
 }
 
 footer nav a {
     color: white;
     text-decoration: none;
+    padding-bottom: 20px;
+}
+
+/* ########## about.html page specific styling is below here ########## */
+
+.about-page .top-content .text-container, .about-page .about-bottom-content .text-container {
+    width: 96%;
+}
+
+.about-middle-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card {
+    width: 48%;
+    border-bottom: 1px dashed black;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.card img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.card .button {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background: white;
+    width: 130px;
+    padding: 10px 20px;
+    border: 2px solid black;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+.about-bottom-content {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 40px;
+}
+
+/* ########## contact.html page specific styling is below here ########## */
+
+.contact-body {
+    background: #ffa375;
+    display: flex;
+    align-items: center;
+}
+
+.contact-container {
+    background: white;
+    width: 400px;
+    margin: 0 auto;
+    border-radius: 20px;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.2);
+}
+
+#contact {
+    padding: 20px;
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+#contact h1 {
+    color: steelblue;
+    font-size: 36px;
+}
+
+input, textarea {
+    width: 100%;
+    margin: 10px auto;
+}
+
+.submit-button {
+    margin: 10px auto;
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    background: steelblue;
+    color: white;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.home-button {
+    text-align: center;
+    color: steelblue;
+    font-size: 24px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: -10px;
+}
+
+.submit-button:hover {
+    background: #24435c;
+}
+
+.home-button:hover {
+    color: #24435c;
+}
+
+/* ########## Media Queries to make styling responsive and mobile-friendly ########## */
+
+@media only screen and (max-width: 800px) {
+    .container {
+        width: 100%;
+    }
+
+    .top-content img {
+        width: 100%;
+    }
+
+    .middle-content .boxes .box {
+        width: 100px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .top-content .text-container {
+        width: 96%;
+    }
+
+    .bottom-content {
+        flex-wrap: wrap;
+    }
+
+    .bottom-content .text-container {
+        width: 96%;
+        margin-bottom: 20px;
+    }
+
+    .card {
+        width: 94%;
+        margin-left: 3%;
+        margin-right: 3%;
+    }
 }
